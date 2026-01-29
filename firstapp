@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      title: "my store",
+      home: Scaffold(
+        drawer: Drawer(),
+        floatingActionButton: FloatingActionButton(onPressed: (){}),
+        appBar: AppBar(title: Text("منصة اهل الاثر"), elevation: 50, ),
+        body: Center(child: Text("data"),)
+        
+      ) ,
+    ),
+    
+    );
+}
